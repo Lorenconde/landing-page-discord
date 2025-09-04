@@ -219,9 +219,6 @@ footer img {
 }
   
 /* RESPONSIVO */
-/* ...existing code... */
-
-/* RESPONSIVO */
 @media (max-width: 1024px) {
   .section-flex,
   .section-flex-reverse {
