@@ -48,7 +48,7 @@ landing-page-discord
     │   └── style.css
     │
     └── imag
-        ├── header.png
+        ├── hero-bg.png
         ├── logo.png
         ├── section-01.svg
         ├── section-02.svg

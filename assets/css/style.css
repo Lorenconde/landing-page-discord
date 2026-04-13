@@ -15,7 +15,8 @@ body {
 }
 
 .container {
-  background-image: url('./assets/img/header.png');
+
+  background-image: url('../img/hero-bg.png');
   height: 560px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,10 +25,11 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 0 20px;  
+  padding: 0 20px;
 }
 
 .hero {
+  
   max-width: 1280px;
   display: flex;
   flex-flow: column;
@@ -65,7 +67,8 @@ body {
 }
 
 
-.btn-white, .btn-dark {
+.btn-white,
+.btn-dark {
   padding: 16px 32px;
   border-radius: 28px;
   border: none;
@@ -73,7 +76,7 @@ body {
   font-weight: 600;
   font-size: 18px;
   transition: background 0.2s, color 0.2s;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .btn-white {
@@ -132,7 +135,7 @@ body {
   max-width: 394px;
   height: auto;
   border-radius: 8px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
 }
 
 .section-text {
@@ -188,7 +191,7 @@ body {
   max-height: 80px;
 }
 
-.section-4 p{
+.section-4 p {
   text-align: center;
   font-weight: 400;
   font-size: 16px;
@@ -198,13 +201,13 @@ body {
 
 }
 
-.section-4 img{
+.section-4 img {
   max-width: 50rem;
   margin: 0 auto;
   display: block;
   width: 100%;
   height: auto;
-} 
+}
 
 footer {
   background-color: #23272a;
@@ -217,9 +220,10 @@ footer {
 footer img {
   width: 180px;
 }
-  
+
 /* RESPONSIVO */
 @media (max-width: 1024px) {
+
   .section-flex,
   .section-flex-reverse {
     flex-direction: column !important;
@@ -228,10 +232,12 @@ footer img {
     min-height: unset;
     max-width: 100%;
   }
+
   .img-container,
   .section-text {
     max-width: 100%;
   }
+
   .section-text h2,
   .section-text p {
     text-align: center !important;
@@ -243,21 +249,26 @@ footer img {
     font-size: 2rem;
     max-width: 100%;
   }
+
   .hero p {
     font-size: 1rem;
     max-width: 100%;
   }
+
   .section-flex,
   .section-flex-reverse {
     gap: 24px;
     padding: 32px 0;
   }
+
   .section-text h2 {
     font-size: 1.3rem;
   }
+
   .section-text p {
     font-size: 1rem;
   }
+
   .img-container img {
     max-width: 90vw;
   }
@@ -268,29 +279,37 @@ footer img {
     height: auto;
     padding: 20px 4px;
   }
+
   .hero {
     padding: 24px 0;
   }
-  .btn-white, .btn-dark {
+
+  .btn-white,
+  .btn-dark {
     width: 100%;
     font-size: 1rem;
     padding: 12px 0;
   }
+
   .section-flex,
   .section-flex-reverse {
     padding: 16px 0;
     gap: 16px;
   }
+
   .section-text {
     padding: 0 8px;
   }
+
   .img-container img {
     max-width: 100vw;
   }
+
   .section-4 h2 {
     font-size: 1.2rem;
     max-width: 100%;
   }
+
   .section-4 p {
     font-size: 0.95rem;
     max-width: 100%;
