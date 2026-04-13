@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  background-image: url('../assets/img/header.png');
+  background-image: url('./assets/img/header.png');
   height: 560px;
   background-repeat: no-repeat;
   background-size: cover;
