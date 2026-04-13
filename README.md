@@ -50,13 +50,12 @@ landing-page-discord
     └── imag
         ├── hero-bg.png
         ├── logo.png
-        ├── section-01.svg
-        ├── section-02.svg
-        ├── section-03.svg
+        ├── section-01.png
+        ├── section-02.png
+        ├── section-03.png
         └── section-04.png
 ```
 
----
 
 ## 💻 Como Executar o Projeto
 
@@ -66,11 +65,6 @@ Clone o repositório:
 git clone https://github.com/Lorenconde/landing-page-discord.git
 ```
 
-Acesse a pasta:
-
-```
-cd landing-page-discord
-```
 
 Abra o arquivo:
 
