@@ -8,7 +8,7 @@ Projeto criado como parte do meu aprendizado em **Desenvolvimento Front-end**, r
 
 ## 📸 Preview do Projeto
 
-
+![Preview do projeto](assets/img/cloneDiscord.png)
 
 ---
 
